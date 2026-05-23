@@ -9,8 +9,8 @@ export const PROJECTS = [
     slug: 'omonia',
     name: 'Omonia',
     description: 'Holistic Healing Marktplatz für Kopenhagen — Practitioners & Buchungen',
-    url: 'https://omonia.vercel.app',
-    status: 'live',
+    url: '#',
+    status: 'wip',
   },
   {
     slug: 'zen-flow',
