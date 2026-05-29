@@ -5,6 +5,16 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos',
+    name: 'ontos',
+    description: 'Holistic healers in Copenhagen — landing page with hero video, intro animation and modalities carousel.',
+    url: 'https://ontos-iota.vercel.app',
+    status: 'wip',
+    pages: [
+      { name: 'Landing', path: '/' },
+    ],
+  },
+  {
     slug: 'omonia',
     name: 'Omonia',
     description: 'Holistic Healing Marketplace for Copenhagen — Practitioners & Bookings',
