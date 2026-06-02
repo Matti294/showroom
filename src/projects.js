@@ -15,6 +15,16 @@ export const PROJECTS = [
     ],
   },
   {
+    slug: 'ontos-reskin',
+    name: 'ontos · reskin',
+    description: 'ONTOS reskin — warm, editorial landing: practitioner moodboard, a curated offerings index and a calm, premium onboarding.',
+    url: 'https://ontos-reskin.vercel.app',
+    status: 'wip',
+    pages: [
+      { name: 'Landing', path: '/' },
+    ],
+  },
+  {
     slug: 'omonia',
     name: 'Omonia',
     description: 'Holistic Healing Marketplace for Copenhagen — Practitioners & Bookings',
