@@ -5,6 +5,16 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-draft-f',
+    name: 'ontos · Draft F',
+    description: 'Homepage proposal for Isabel’s decision — threshold hero, people strip with gaze escalation, harbour swimmer, journal tile system. All imagery is AI mood reference; finals will be real photography.',
+    url: 'https://showroom-nine-weld.vercel.app/ontos-draft-f',
+    status: 'draft',
+    pages: [
+      { name: 'Draft F', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos',
     name: 'ontos',
     description: 'Holistic healers in Copenhagen — landing page with hero video, intro animation and modalities carousel.',
