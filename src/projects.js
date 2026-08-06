@@ -15,6 +15,16 @@ export const PROJECTS = [
     ],
   },
   {
+    slug: 'ontos-hero-decision',
+    name: 'ontos · Hero Decision',
+    description: 'Five hero directions with expert-panel verdicts — wind texture, light-beam figure, light study, harbour water, the door — plus live toggles for word sets, category subline and mobile crop. The decision behind Draft F.',
+    url: 'https://showroom-nine-weld.vercel.app/ontos-hero-decision',
+    status: 'draft',
+    pages: [
+      { name: 'Decision board', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos',
     name: 'ontos',
     description: 'Holistic healers in Copenhagen — landing page with hero video, intro animation and modalities carousel.',
