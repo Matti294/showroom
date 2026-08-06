@@ -15,6 +15,16 @@ export const PROJECTS = [
     ],
   },
   {
+    slug: 'ontos-c1-map',
+    name: 'ontos · Copenhagen Map',
+    description: 'Slot C1 — real street grid of Copenhagen in the Draft F palette, every light a practitioner. Interactive: lights breathe and switch per healer; with real addresses each light will sit exactly where the practice is.',
+    url: 'https://showroom-nine-weld.vercel.app/ontos-c1-map',
+    status: 'draft',
+    pages: [
+      { name: 'Map', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos-hero-decision',
     name: 'ontos · Hero Decision',
     description: 'Five hero directions with expert-panel verdicts — wind texture, light-beam figure, light study, harbour water, the door — plus live toggles for word sets, category subline and mobile crop. The decision behind Draft F.',
