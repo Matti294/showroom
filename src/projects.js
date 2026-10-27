@@ -5,6 +5,16 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-bentsen',
+    name: 'ontos · Bentsen Study',
+    description: 'Homepage study built the way Tore Bentsen (Awwwards jury) would: a film reel hero — one film per word, soft cinematic cuts — a cream sheet framed in charcoal, giant practice titles with torn-edge films, a harbour swim film and a morphing wordmark (o → you → others → we). Note: video in the hero deviates from the round-2 rule. All films are AI mood reference.',
+    url: 'https://ontos-bentsen.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos-draft-f',
     name: 'ontos · Draft F',
     description: 'Homepage proposal for Isabel’s decision — threshold hero, people strip with gaze escalation, harbour swimmer, journal tile system. All imagery is AI mood reference; finals will be real photography.',
