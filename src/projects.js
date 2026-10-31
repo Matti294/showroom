@@ -7,7 +7,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-in-time',
     name: 'ontos · Twelve Hours',
-    description: 'Homepage study in the manner of Immersive Garden’s “Cartier in Time”: a dark, timeless space, a watch dial as scroll carousel — twelve hours of a Copenhagen day, one film and one practice family per hour, the hand snapping to each hour. A grid index as second way through the day, and an ending that zooms out into a starfield (“Time, held.”). Note: adds Cormorant Garamond as display serif next to Montserrat. All films are AI mood reference.',
+    description: 'Homepage study rebuilt the way Immersive Garden made “Cartier in Time”: a WebGL carousel of curved film cards on a tilted line — the active hour large, the others as thumbnails — with 3D clock hands spinning in the gap as you scroll from hour to hour. Didot numerals, small-caps UI, background drifting from morning light to night, a tilted film wall as intro and chapter view, and an ending that pulls back into darkness (“Time, held.”). Twelve hours of a Copenhagen day, one practice family each. Hands in Ontos amber instead of Cartier blue; Bodoni Moda added as display serif. Films: existing AI mood footage graded black & white — a dedicated B&W series with one recurring protagonist is planned.',
     url: 'https://ontos-in-time.vercel.app',
     status: 'draft',
     pages: [
