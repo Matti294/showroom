@@ -5,6 +5,17 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-curatr',
+    name: 'ontos · Curatr Study',
+    description: 'What if CURATR Paris designed the ontos homepage? Built on a close analysis of how curatr.paris behaves — print logic instead of cinema: a paper sheet on a Copenhagen photograph grows as you scroll and becomes a text column; small images float at their own speed and follow the mouse; “How ontos works” turns inside wide brackets (we listen, we choose, we connect); two halves of one picture — split along the ontos circle — slide together into one image; a horizontal journey (Explore, Meet, Begin, Belong) with drifting text columns; an index of fifty practices over a still field of grass. The page never ends: it loops seamlessly back to the start, with a new selection of images each time. Two versions: stills only (Curatr’s way) and with films. AI-generated mood reference.',
+    url: 'https://ontos-curatr.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Stills', path: '/' },
+      { name: 'With films', path: '/?film' },
+    ],
+  },
+  {
     slug: 'ontos-in-time',
     name: 'ontos · Immersive Garden Study',
     description: 'What if Immersive Garden (the studio behind “Cartier in Time”) designed the ontos homepage? A free-scrolling story — You → Copenhagen → Practices → Others → Step in → We: a morning room with a moving curtain withdraws into its own frame (frame-in-frame), frames open from a thin strip and tilt gently with scroll speed, ghost text fills in line by line. The eight practice families sit on a carousel reverse-engineered from the Cartier in Time screen recordings — a tilted ring in space that slowly turns by itself, large card in front, the far side small behind, a fine hand in the centre; turn it by arrows, click, drag or the name bar. Islands Brygge harbour bath opens to full screen (“Step in.”), and the cyclists on the bridge zoom out to become the centre of a network of all films: “You. Others. We become ontos.” Films in natural Nordic light, people only from a distance, true slow motion. AI-generated mood reference.',
