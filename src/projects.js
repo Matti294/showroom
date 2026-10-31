@@ -6,8 +6,8 @@ export const AUTHORS = [
 export const PROJECTS = [
   {
     slug: 'ontos-in-time',
-    name: 'ontos · Twelve Hours',
-    description: 'Homepage study rebuilt the way Immersive Garden made “Cartier in Time”: a WebGL carousel of curved film cards on a tilted line — the active hour large, the others as thumbnails — with 3D clock hands spinning in the gap as you scroll from hour to hour. Didot numerals, small-caps UI, background drifting from morning light to night, a tilted film wall as intro and chapter view, and an ending that pulls back into darkness (“Time, held.”). Twelve hours of a Copenhagen day, one practice family each. Hands in Ontos amber instead of Cartier blue; Bodoni Moda added as display serif. Films: existing AI mood footage graded black & white — a dedicated B&W series with one recurring protagonist is planned.',
+    name: 'ontos · Immersive Garden Study',
+    description: 'What if Immersive Garden (the studio behind “Cartier in Time”) designed ontos? Their carousel, translated to our brand: the eight practice families as film cards on a true 3D ring — endless, gliding, gently snapping — with the ontos symbol (circle, arc, wave) in 3D as the axis, revealed between the cards as the ring turns, the way Cartier’s clock hands are. Off-white, Montserrat/Quicksand, amber accent, warm films. A tilted film wall as intro and overview, each practice opens full-screen; “About” carries the brand statement. Films are AI mood reference.',
     url: 'https://ontos-in-time.vercel.app',
     status: 'draft',
     pages: [
