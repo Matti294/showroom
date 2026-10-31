@@ -5,6 +5,16 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-in-time',
+    name: 'ontos · Twelve Hours',
+    description: 'Homepage study in the manner of Immersive Garden’s “Cartier in Time”: a dark, timeless space, a watch dial as scroll carousel — twelve hours of a Copenhagen day, one film and one practice family per hour, the hand snapping to each hour. A grid index as second way through the day, and an ending that zooms out into a starfield (“Time, held.”). Note: adds Cormorant Garamond as display serif next to Montserrat. All films are AI mood reference.',
+    url: 'https://ontos-in-time.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos-bentsen',
     name: 'ontos · Bentsen Study',
     description: 'Homepage study built the way Tore Bentsen (Awwwards jury) would: a film reel hero — one film per word, soft cinematic cuts — a cream sheet framed in charcoal, giant practice titles with torn-edge films, a harbour swim film and a morphing wordmark (o → you → others → we). Note: video in the hero deviates from the round-2 rule. All films are AI mood reference.',
