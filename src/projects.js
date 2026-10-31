@@ -9,7 +9,7 @@ export const PROJECTS = [
     name: 'ontos · Immersive Garden Study',
     description: 'What if Immersive Garden (the studio behind “Cartier in Time”) designed the ontos homepage? A free-scrolling story — You → Copenhagen → Practices → Others → Step in → We: a morning room with a moving curtain withdraws into its own frame (frame-in-frame), frames open from a thin strip and tilt gently with scroll speed, ghost text fills in line by line. The eight practice families sit on a carousel reverse-engineered from the Cartier in Time screen recordings — a tilted ring in space that slowly turns by itself, large card in front, the far side small behind, a fine hand in the centre; turn it by arrows, click, drag or the name bar. Islands Brygge harbour bath opens to full screen (“Step in.”), and the cyclists on the bridge zoom out to become the centre of a network of all films: “You. Others. We become ontos.” Films in natural Nordic light, people only from a distance, true slow motion. AI-generated mood reference.',
     url: 'https://ontos-in-time.vercel.app',
-    status: 'draft',
+    status: 'live',
     pages: [
       { name: 'Home', path: '/' },
     ],
