@@ -5,6 +5,27 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-locomotive',
+    name: 'ontos · Landing — Locomotive Study',
+    description: 'A landing page built the way Locomotive (Montréal) works. It is based on a measured analysis of their award-winning sites (McAlpine House, The Drake). A full-screen film of morning light on a lime-washed wall carries a giant serif wordmark. An off-white sheet then slides over it: “Local. Curated. Human.” The three ways in read as a table of contents. The ten directions and eight families appear as large numbered lists: only the row in the middle of the screen opens, showing small stills and an image stage. The Islands Brygge harbour bath and the morning swim open from masks, with practitioners shown in their own rooms. There are no cards, pills or bold type, and colour comes only from the films. “Book →” sits quietly top right and opens a calm side panel. AI-generated mood footage.',
+    url: 'https://ontos-locomotive.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+    ],
+  },
+  {
+    slug: 'ontos-obys',
+    name: 'ontos · Landing — Obys Study',
+    description: 'A landing page built the way Obys works. It is based on a measured analysis of their award-winning sites (Éminente, Makhno). “The Copenhagen Notebook”: the window is an open double page of grained paper, with a gutter, page numbers that count as you scroll, a thumb index and live Copenhagen time. The cover film opens from a mask across the spread. The three ways in form a register (I/II/III), the directions sit under a reading line, and the eight families form a pinned index (A–H) beside running films. One page corner turns to start “Part two — The people”: practitioners appear as scattered prints. Every entry links to a filtered booking page, with no coloured buttons. AI-generated mood footage and stills.',
+    url: 'https://ontos-obys.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+      { name: 'Booking', path: '/book.html?direction=rest' },
+    ],
+  },
+  {
     slug: 'ontos-workco',
     name: 'ontos · Agency Pitch A — Work & Co',
     description: 'Agency pitch, round 1 winner (jury 71/100). Three studios got only the Innofounder application, no style guide and no earlier drafts, and designed the core booking flow (understand → trust → book → after) for web and mobile. Work & Co’s idea is “The Plan”: a living summary that fills up from your first tap to payment (Looking for → Practice → With → Format → When → You pay). It starts with “How have you been lately?”, gives reasons instead of star ratings, says honestly when nothing fits, and shows the 12% commission openly. Copenhagen winter light at 16:38, travel times in bike minutes, MobilePay. Jonas books shiatsu in 3 taps. AI-generated mood imagery.',
