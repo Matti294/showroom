@@ -5,6 +5,37 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-workco',
+    name: 'ontos · Agency Pitch A — Work & Co',
+    description: 'Agency pitch, round 1 winner (jury 71/100). Three studios got only the Innofounder application, no style guide and no earlier drafts, and designed the core booking flow (understand → trust → book → after) for web and mobile. Work & Co’s idea is “The Plan”: a living summary that fills up from your first tap to payment (Looking for → Practice → With → Format → When → You pay). It starts with “How have you been lately?”, gives reasons instead of star ratings, says honestly when nothing fits, and shows the 12% commission openly. Copenhagen winter light at 16:38, travel times in bike minutes, MobilePay. Jonas books shiatsu in 3 taps. AI-generated mood imagery.',
+    url: 'https://ontos-workco.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Booking flow', path: '/' },
+    ],
+  },
+  {
+    slug: 'ontos-collins',
+    name: 'ontos · Agency Pitch C — Collins',
+    description: 'Agency pitch, 2nd place (jury 68/100), with the strongest brand and emotion. The big idea is “Arrive.”: arriving in your body and in Copenhagen. Sara builds her own sentence (“Lately I’ve been sleeping badly and feeling alone…”), which serves as input, summary and the reason for each match. The practice universe reads like a field guide. Practitioners are “your neighbours, in their own words”, and each profile shows “what happens in your first 60 minutes”. The logo is a half sun on the waterline that rises once you have booked. Crisis words lead to a calm card with Livslinien. AI-generated mood imagery and portraits.',
+    url: 'https://ontos-collins.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Booking flow', path: '/' },
+    ],
+  },
+  {
+    slug: 'ontos-rauno',
+    name: 'ontos · Agency Pitch B — Rauno Freiberg',
+    description: 'Agency pitch, 3rd place (jury 61/100), the most humane conversation. “A page that listens”: Sara types or speaks what is going on. Ontos underlines the words it picked up and lists everything under “What I’ve heard”, where each item can be removed. Two practices are explained in plain words, then come people with reasons and times. The interface follows the real Copenhagen daylight (day, low sun, blue hour, night) and turns dark at sunset. Practitioner cards show the room you will be in rather than a face. The matching is rule-based and says so honestly. AI-generated mood imagery.',
+    url: 'https://ontos-rauno.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Booking flow', path: '/' },
+      { name: 'Night light', path: '/?light=night' },
+    ],
+  },
+  {
     slug: 'ontos-curatr',
     name: 'ontos · Curatr Study',
     description: 'What if CURATR Paris designed the ontos homepage? Built on a close analysis of how curatr.paris behaves — print logic instead of cinema: a paper sheet on a Copenhagen photograph grows as you scroll and becomes a text column; small images float at their own speed and follow the mouse; “How ontos works” turns inside wide brackets (we listen, we choose, we connect); two halves of one picture — split along the ontos circle — slide together into one image; a horizontal journey (Explore, Meet, Begin, Belong) with drifting text columns; an index of fifty practices over a still field of grass. The page never ends: it loops seamlessly back to the start, with a new selection of images each time. Two versions: stills only (Curatr’s way) and with films. AI-generated mood reference.',
