@@ -7,42 +7,46 @@ export const PROJECTS = [
   {
     slug: 'ontos-dogstudio',
     name: 'ontos · Landing — Dogstudio Study',
-    description: 'A landing page built the way Dogstudio tells stories. It is based on a measured analysis of their award-winning work (dogstudio.co, Virgin Galactic, Prepare to Pioneer). “One night until morning”: it is three in the morning in Vesterbro, “you’re not the only one awake”. Then the ontos circle opens like a moon onto dawn over a lake, and the page turns into warm daylight. A linen sheet slides in beside the films, and each section pairs a calm text page with an open film window. It covers the three ways in, the eight families, a room with the lamp already on, how practitioners are checked, prices and three quiet steps, and ends on a morning street: “Begin with one conversation.” Scrolling is continuous, and the booking overlay leads from feeling to people, times and DKK. AI-generated mood footage.',
+    description: 'Round 4. A landing page in Dogstudio’s storytelling style, now bright from the first frame: “Something new is in the air.” A round window onto a morning lake grows until you step into the day. Right after it comes the ontos signature: the ten directions as a quiet list, the active one in amber [ brackets ], with light and image changing behind it, leading straight to people. Maja Holm gets a large stage of her own. The new practitioner page, “A morning with Maja”, tells her morning in four moments (06:30 harbour bath, 07:15 by bike through Vesterbro, 07:40 her room, 08:00 you arrive). It then follows the client decision criteria from the Innofounder survey: feeling, working style, tone, experience, price, values, place, topics and format. It ends in a demo booking. AI-generated footage.',
     url: 'https://ontos-dogstudio.vercel.app',
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
     slug: 'ontos-exoape',
     name: 'ontos · Landing — Exo Ape Study',
-    description: 'A landing page built the way Exo Ape works. It is based on a measured analysis of their award-winning sites (amaterasu.ai, ottografie.nl). “An evening in Denmark where you arrive” is a sequence of calm films in moss black and fog white: a beech forest in mist, a lamp at a rainy window, a lake, a studio window, a beach. The three ways in share one WebGL stage whose images dissolve into each other like mist. Each of the eight families fills the whole screen in turn, its name large and light. Facts about checking and prices sit on a bright fog surface, where the decision is made. Scrolling is continuous. “Book” stays top right and opens an overlay: feeling → three matching people with reasons, times and DKK. AI-generated mood footage.',
+    description: 'Round 4. A landing page in Exo Ape’s style: “Find your way to feeling well.”, warm morning light on linen. The ontos signature (ten directions, the active one in amber [ brackets ]) follows the hero and moves smoothly with scroll, hover, touch and keyboard, leading to matching people. Maja’s harbour film grows into a full-bleed stage, “Meet Maja.” The new practitioner page is a filmic portrait: her words, her room in full screen (“Slow is allowed. You lead, I follow.”), how a first hour runs, experience and what Ontos checked, prices in the open, and a demo booking. It is ordered by the client decision criteria from the Innofounder survey. AI-generated footage.',
     url: 'https://ontos-exoape.vercel.app',
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
     slug: 'ontos-locomotive',
     name: 'ontos · Landing — Locomotive Study',
-    description: 'A landing page built the way Locomotive (Montréal) works. It is based on a measured analysis of their award-winning sites (McAlpine House, The Drake). A full-screen film of morning light on a lime-washed wall carries a giant serif wordmark. An off-white sheet then slides over it: “Local. Curated. Human.” The three ways in read as a table of contents. The ten directions and eight families appear as large numbered lists: only the row in the middle of the screen opens, showing small stills and an image stage. The Islands Brygge harbour bath and the morning swim open from masks, with practitioners shown in their own rooms. There are no cards, pills or bold type, and colour comes only from the films. “Book →” sits quietly top right and opens a calm side panel. AI-generated mood footage.',
+    description: 'Round 4. A landing page in Locomotive’s style, now light and warm throughout: “Something new is in the air.” The ten directions form a focus list, the active one in amber [ brackets ] with the matching practices and people beside it, so the signature of ontos is its own chapter. Maja Holm’s harbour film runs edge to edge and continues as the hero of her new practitioner page. That page is a filmic portrait ordered by the client decision criteria from the Innofounder survey (feeling, working style, tone, experience, price): her words, her room, the first session with tea, what Ontos checked, prices in the open, and a demo booking in the side panel. AI-generated footage.',
     url: 'https://ontos-locomotive.vercel.app',
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
     slug: 'ontos-obys',
     name: 'ontos · Landing — Obys Study',
-    description: 'A landing page built the way Obys works. It is based on a measured analysis of their award-winning sites (Éminente, Makhno). “The Copenhagen Notebook”: the window is an open double page of grained paper, with a gutter, page numbers that count as you scroll, a thumb index and live Copenhagen time. The cover film opens from a mask across the spread. The three ways in form a register (I/II/III), the directions sit under a reading line, and the eight families form a pinned index (A–H) beside running films. One page corner turns to start “Part two — The people”: practitioners appear as scattered prints. Every entry links to a filtered booking page, with no coloured buttons. AI-generated mood footage and stills.',
+    description: 'Round 4. “The Copenhagen Notebook”, now with half the text: a register to leaf through rather than a page to read. The three ways in are the chapters. Chapter I is the ontos signature, the ten directions with the active one in amber [ brackets ], the only colour not taken from a photograph. Maja Holm gets her own double page. Her new practitioner page tells her as a portrait in spreads: her name as a wordmark, her words, a large “9” for her years in practice, the first hour as a ruler, what Ontos checked, open prices and a demo booking. It is ordered by the client decision criteria from the Innofounder survey. AI-generated footage.',
     url: 'https://ontos-obys.vercel.app',
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
       { name: 'Booking', path: '/book.html?direction=rest' },
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
