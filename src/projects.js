@@ -5,6 +5,16 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-dogstudio',
+    name: 'ontos · Landing — Dogstudio Study',
+    description: 'A landing page built the way Dogstudio tells stories. It is based on a measured analysis of their award-winning work (dogstudio.co, Virgin Galactic, Prepare to Pioneer). “One night until morning”: it is three in the morning in Vesterbro, “you’re not the only one awake”. Then the ontos circle opens like a moon onto dawn over a lake, and the page turns into warm daylight. A linen sheet slides in beside the films, and each section pairs a calm text page with an open film window. It covers the three ways in, the eight families, a room with the lamp already on, how practitioners are checked, prices and three quiet steps, and ends on a morning street: “Begin with one conversation.” Scrolling is continuous, and the booking overlay leads from feeling to people, times and DKK. AI-generated mood footage.',
+    url: 'https://ontos-dogstudio.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos-exoape',
     name: 'ontos · Landing — Exo Ape Study',
     description: 'A landing page built the way Exo Ape works. It is based on a measured analysis of their award-winning sites (amaterasu.ai, ottografie.nl). “An evening in Denmark where you arrive” is a sequence of calm films in moss black and fog white: a beech forest in mist, a lamp at a rainy window, a lake, a studio window, a beach. The three ways in share one WebGL stage whose images dissolve into each other like mist. Each of the eight families fills the whole screen in turn, its name large and light. Facts about checking and prices sit on a bright fog surface, where the decision is made. Scrolling is continuous. “Book” stays top right and opens an overlay: feeling → three matching people with reasons, times and DKK. AI-generated mood footage.',
