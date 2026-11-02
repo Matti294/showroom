@@ -5,9 +5,30 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-dogstudio-isabel',
+    name: 'ontos · Landing — Dogstudio × Isabel',
+    description: 'Round 6: the Dogstudio study as the base, with Isabel’s elements added sparingly. Large black-and-white portraits, and on Maja’s portrait (moving, she opens her eyes) a chalk handwriting in just two places. Fine film grain over the page, no gradient veil, no glass. Isabel’s intention text fits on one screen. A calendar like o-p-e-n.com with All / In person / Digital and 14 days. A quiet guide (“What would you like more of?”) with typed or spoken answers, and a small sound switch that never starts on its own. Calm scrolling: the page mostly moves with you, only two short pins, at most one large image change per screen. Sans-serif only, fixed Quicksand wordmark. AI-generated footage.',
+    url: 'https://ontos-dogstudio-isabel.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+      { name: 'Calendar', path: '/calendar.html' },
+    ],
+  },
+  {
+    slug: 'ontos-dogstudio-isabel-practitioner',
+    name: 'ontos · Practitioner page — Dogstudio × Isabel',
+    description: 'Maja Holm’s page in the Dogstudio × Isabel version. It opens with her moving black-and-white portrait and the chalk words “Start where you are.”, then tells her morning (06:30 her kitchen, 07:15 by bike, 07:40 her room, 08:00 you arrive) as calm, scrolling images. It is ordered by the client decision criteria from the Innofounder survey, with open prices and a demo booking. AI-generated footage.',
+    url: 'https://ontos-dogstudio-isabel.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
+    ],
+  },
+  {
     slug: 'ontos-dogstudio',
     name: 'ontos · Landing — Dogstudio Study',
-    description: 'Round 4b: sans-serif only, the fixed ontos wordmark in Quicksand, a first screen that says what ontos is and shows the three ways in, no flashing images, and something visibly changes with every scroll step. Round 4. A landing page in Dogstudio’s storytelling style, now bright from the first frame: “Something new is in the air.” A round window onto a morning lake grows until you step into the day. Right after it comes the ontos signature: the ten directions as a quiet list, the active one in amber [ brackets ], with light and image changing behind it, leading straight to people. Maja Holm gets a large stage of her own. The new practitioner page, “A morning with Maja”, tells her morning in four moments (06:30 her kitchen, window open and tea on, 07:15 by bike through Vesterbro, 07:40 her room, 08:00 you arrive). It then follows the client decision criteria from the Innofounder survey: feeling, working style, tone, experience, price, values, place, topics and format. It ends in a demo booking. AI-generated footage.',
+    description: 'Calm scrolling update: the page mostly moves with you, few short pins, at most one large image change per screen. Round 4b: sans-serif only, the fixed ontos wordmark in Quicksand, a first screen that says what ontos is and shows the three ways in, no flashing images, and something visibly changes with every scroll step. Round 4. A landing page in Dogstudio’s storytelling style, now bright from the first frame: “Something new is in the air.” A round window onto a morning lake grows until you step into the day. Right after it comes the ontos signature: the ten directions as a quiet list, the active one in amber [ brackets ], with light and image changing behind it, leading straight to people. Maja Holm gets a large stage of her own. The new practitioner page, “A morning with Maja”, tells her morning in four moments (06:30 her kitchen, window open and tea on, 07:15 by bike through Vesterbro, 07:40 her room, 08:00 you arrive). It then follows the client decision criteria from the Innofounder survey: feeling, working style, tone, experience, price, values, place, topics and format. It ends in a demo booking. AI-generated footage.',
     url: 'https://ontos-dogstudio.vercel.app',
     status: 'draft',
     pages: [
@@ -17,7 +38,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-exoape',
     name: 'ontos · Landing — Exo Ape Study',
-    description: 'Round 4b: the fixed ontos wordmark in Quicksand, a first screen that explains ontos and shows the three ways in, a soft film stage behind the directions so each one changes the whole mood, no hover images, and Maja’s morning in her kitchen. Round 4. A landing page in Exo Ape’s style: “Find your way to feeling well.”, warm morning light on linen. The ontos signature (ten directions, the active one in amber [ brackets ]) follows the hero and moves smoothly with scroll, hover, touch and keyboard, leading to matching people. Maja’s morning film grows into a full-bleed stage, “Meet Maja.” The new practitioner page is a filmic portrait: her words, her room in full screen (“Slow is allowed. You lead, I follow.”), how a first hour runs, experience and what Ontos checked, prices in the open, and a demo booking. It is ordered by the client decision criteria from the Innofounder survey. AI-generated footage.',
+    description: 'Calm scrolling update: the page mostly moves with you, few short pins, at most one large image change per screen. Round 4b: the fixed ontos wordmark in Quicksand, a first screen that explains ontos and shows the three ways in, a soft film stage behind the directions so each one changes the whole mood, no hover images, and Maja’s morning in her kitchen. Round 4. A landing page in Exo Ape’s style: “Find your way to feeling well.”, warm morning light on linen. The ontos signature (ten directions, the active one in amber [ brackets ]) follows the hero and moves smoothly with scroll, hover, touch and keyboard, leading to matching people. Maja’s morning film grows into a full-bleed stage, “Meet Maja.” The new practitioner page is a filmic portrait: her words, her room in full screen (“Slow is allowed. You lead, I follow.”), how a first hour runs, experience and what Ontos checked, prices in the open, and a demo booking. It is ordered by the client decision criteria from the Innofounder survey. AI-generated footage.',
     url: 'https://ontos-exoape.vercel.app',
     status: 'draft',
     pages: [
@@ -27,7 +48,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-locomotive',
     name: 'ontos · Landing — Locomotive Study',
-    description: 'Round 4b: sans-serif only, the fixed ontos wordmark in Quicksand, a first screen that says what ontos is and shows the three ways in, no flashing images, and something visibly changes with every scroll step. Round 4. A landing page in Locomotive’s style, now light and warm throughout: “Something new is in the air.” The ten directions form a focus list, the active one in amber [ brackets ] with the matching practices and people beside it, so the signature of ontos is its own chapter. Maja Holm’s morning film (her kitchen, window open, tea on) runs edge to edge and continues as the hero of her new practitioner page. That page is a filmic portrait ordered by the client decision criteria from the Innofounder survey (feeling, working style, tone, experience, price): her words, her room, the first session with tea, what Ontos checked, prices in the open, and a demo booking in the side panel. AI-generated footage.',
+    description: 'Calm scrolling update: the page mostly moves with you, few short pins, at most one large image change per screen. Round 4b: sans-serif only, the fixed ontos wordmark in Quicksand, a first screen that says what ontos is and shows the three ways in, no flashing images, and something visibly changes with every scroll step. Round 4. A landing page in Locomotive’s style, now light and warm throughout: “Something new is in the air.” The ten directions form a focus list, the active one in amber [ brackets ] with the matching practices and people beside it, so the signature of ontos is its own chapter. Maja Holm’s morning film (her kitchen, window open, tea on) runs edge to edge and continues as the hero of her new practitioner page. That page is a filmic portrait ordered by the client decision criteria from the Innofounder survey (feeling, working style, tone, experience, price): her words, her room, the first session with tea, what Ontos checked, prices in the open, and a demo booking in the side panel. AI-generated footage.',
     url: 'https://ontos-locomotive.vercel.app',
     status: 'draft',
     pages: [
@@ -37,7 +58,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-obys',
     name: 'ontos · Landing — Obys Study',
-    description: 'Round 4b: sans-serif only, the fixed ontos wordmark in Quicksand, a first screen that says what ontos is and shows the three ways in, no flashing images, and something visibly changes with every scroll step. Round 4. “The Copenhagen Notebook”, now with half the text: a register to leaf through rather than a page to read. The three ways in are the chapters. Chapter I is the ontos signature, the ten directions with the active one in amber [ brackets ], the only colour not taken from a photograph. Maja Holm gets her own double page. Her new practitioner page tells her as a portrait in spreads: her name as a wordmark, her words, a large “9” for her years in practice, the first hour as a ruler, what Ontos checked, open prices and a demo booking. It is ordered by the client decision criteria from the Innofounder survey. AI-generated footage.',
+    description: 'Calm scrolling update: the page mostly moves with you, few short pins, at most one large image change per screen. Round 4b: sans-serif only, the fixed ontos wordmark in Quicksand, a first screen that says what ontos is and shows the three ways in, no flashing images, and something visibly changes with every scroll step. Round 4. “The Copenhagen Notebook”, now with half the text: a register to leaf through rather than a page to read. The three ways in are the chapters. Chapter I is the ontos signature, the ten directions with the active one in amber [ brackets ], the only colour not taken from a photograph. Maja Holm gets her own double page. Her new practitioner page tells her as a portrait in spreads: her name as a wordmark, her words, a large “9” for her years in practice, the first hour as a ruler, what Ontos checked, open prices and a demo booking. It is ordered by the client decision criteria from the Innofounder survey. AI-generated footage.',
     url: 'https://ontos-obys.vercel.app',
     status: 'draft',
     pages: [
