@@ -4,27 +4,8 @@ export const AUTHORS = [
 ];
 
 export const PROJECTS = [
-  {
-    slug: 'ontos-dogstudio-isabel',
-    name: 'ontos · Landing — Dogstudio × Isabel',
-    description: 'Round 6: the Dogstudio study as the base, with Isabel’s elements added sparingly. Large black-and-white portraits, and on Maja’s portrait (moving, she opens her eyes) a chalk handwriting in just two places. Fine film grain over the page, no gradient veil, no glass. Isabel’s intention text fits on one screen. A calendar like o-p-e-n.com with All / In person / Digital and 14 days. A quiet guide (“What would you like more of?”) with typed or spoken answers, and a small sound switch that never starts on its own. Calm scrolling: the page mostly moves with you, only two short pins, at most one large image change per screen. Sans-serif only, fixed Quicksand wordmark. AI-generated footage.',
-    url: 'https://ontos-dogstudio-isabel.vercel.app',
-    status: 'draft',
-    pages: [
-      { name: 'Home', path: '/' },
-      { name: 'Calendar', path: '/calendar.html' },
-    ],
-  },
-  {
-    slug: 'ontos-dogstudio-isabel-practitioner',
-    name: 'ontos · Practitioner page — Dogstudio × Isabel',
-    description: 'Maja Holm’s page in the Dogstudio × Isabel version. It opens with her moving black-and-white portrait and the chalk words “Start where you are.”, then tells her morning (06:30 her kitchen, 07:15 by bike, 07:40 her room, 08:00 you arrive) as calm, scrolling images. It is ordered by the client decision criteria from the Innofounder survey, with open prices and a demo booking. AI-generated footage.',
-    url: 'https://ontos-dogstudio-isabel.vercel.app',
-    status: 'draft',
-    pages: [
-      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
-    ],
-  },
+
+
   {
     slug: 'ontos-dogstudio',
     name: 'ontos · Landing — Dogstudio Study',
