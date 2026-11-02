@@ -12,7 +12,6 @@ export const PROJECTS = [
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
-      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
@@ -23,7 +22,6 @@ export const PROJECTS = [
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
-      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
@@ -34,7 +32,6 @@ export const PROJECTS = [
     status: 'draft',
     pages: [
       { name: 'Home', path: '/' },
-      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
   {
@@ -46,9 +43,48 @@ export const PROJECTS = [
     pages: [
       { name: 'Home', path: '/' },
       { name: 'Booking', path: '/book.html?direction=rest' },
+    ],
+  },  {
+    slug: 'ontos-dogstudio-practitioner',
+    name: 'ontos · Practitioner page — Dogstudio Study',
+    description: 'Practitioner page for Maja Holm (fictional somatic practitioner, Vesterbro) in Dogstudio’s style. Ordered by the client decision criteria from the Innofounder survey (gut feeling, working style, tone, experience, price, values, place, topics, format). A morning with Maja in four moments with large times (06:30 her kitchen, 07:15 by bike through Vesterbro, 07:40 her room, 08:00 you arrive), then working style, experience and what Ontos checked, open prices and a demo booking. AI-generated footage.',
+    url: 'https://ontos-dogstudio.vercel.app',
+    status: 'draft',
+    pages: [
       { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
     ],
   },
+  {
+    slug: 'ontos-exoape-practitioner',
+    name: 'ontos · Practitioner page — Exo Ape Study',
+    description: 'Practitioner page for Maja Holm (fictional somatic practitioner, Vesterbro) in Exo Ape’s style. Ordered by the client decision criteria from the Innofounder survey (gut feeling, working style, tone, experience, price, values, place, topics, format). A filmic portrait: her morning film grows into a full-bleed stage, her words, her room in full screen (“Slow is allowed. You lead, I follow.”), a first-session timeline that fills with scroll, experience and what Ontos checked, prices in the open and a demo booking. AI-generated footage.',
+    url: 'https://ontos-exoape.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
+    ],
+  },
+  {
+    slug: 'ontos-locomotive-practitioner',
+    name: 'ontos · Practitioner page — Locomotive Study',
+    description: 'Practitioner page for Maja Holm (fictional somatic practitioner, Vesterbro) in Locomotive’s style. Ordered by the client decision criteria from the Innofounder survey (gut feeling, working style, tone, experience, price, values, place, topics, format). A filmic portrait: her kitchen-morning film as hero, her words, her room, the first session with tea, what Ontos checked, prices in the open and a demo booking in the side panel. AI-generated footage.',
+    url: 'https://ontos-locomotive.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
+    ],
+  },
+  {
+    slug: 'ontos-obys-practitioner',
+    name: 'ontos · Practitioner page — Obys Study',
+    description: 'Practitioner page for Maja Holm (fictional somatic practitioner, Vesterbro) in Obys’s style. Ordered by the client decision criteria from the Innofounder survey (gut feeling, working style, tone, experience, price, values, place, topics, format). A portrait told in spreads: her name as a wordmark, her words, a large “9” for her years in practice, the first hour as a ruler, what Ontos checked, open prices and a demo booking. AI-generated footage.',
+    url: 'https://ontos-obys.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Practitioner — Maja Holm', path: '/practitioner.html' },
+    ],
+  },
+
   {
     slug: 'ontos-workco',
     name: 'ontos · Agency Pitch A — Work & Co',
