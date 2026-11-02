@@ -5,6 +5,16 @@ export const AUTHORS = [
 
 export const PROJECTS = [
   {
+    slug: 'ontos-exoape',
+    name: 'ontos · Landing — Exo Ape Study',
+    description: 'A landing page built the way Exo Ape works. It is based on a measured analysis of their award-winning sites (amaterasu.ai, ottografie.nl). “An evening in Denmark where you arrive” is a sequence of calm films in moss black and fog white: a beech forest in mist, a lamp at a rainy window, a lake, a studio window, a beach. The three ways in share one WebGL stage whose images dissolve into each other like mist. Each of the eight families fills the whole screen in turn, its name large and light. Facts about checking and prices sit on a bright fog surface, where the decision is made. Scrolling is continuous. “Book” stays top right and opens an overlay: feeling → three matching people with reasons, times and DKK. AI-generated mood footage.',
+    url: 'https://ontos-exoape.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Home', path: '/' },
+    ],
+  },
+  {
     slug: 'ontos-locomotive',
     name: 'ontos · Landing — Locomotive Study',
     description: 'A landing page built the way Locomotive (Montréal) works. It is based on a measured analysis of their award-winning sites (McAlpine House, The Drake). A full-screen film of morning light on a lime-washed wall carries a giant serif wordmark. An off-white sheet then slides over it: “Local. Curated. Human.” The three ways in read as a table of contents. The ten directions and eight families appear as large numbered lists: only the row in the middle of the screen opens, showing small stills and an image stage. The Islands Brygge harbour bath and the morning swim open from masks, with practitioners shown in their own rooms. There are no cards, pills or bold type, and colour comes only from the films. “Book →” sits quietly top right and opens a calm side panel. AI-generated mood footage.',
