@@ -11,11 +11,16 @@ const STATUS_LABEL = {
 
 // ── Projekt-Kachel ──────────────────────────────────────────────────────────
 function ProjectCard({ project, index, onOpen }) {
-  const badge = STATUS_LABEL[project.status] ?? STATUS_LABEL.draft;
+  const badge = project.highlight
+    ? { text: 'New', classes: 'bg-black text-yellow-300' }
+    : STATUS_LABEL[project.status] ?? STATUS_LABEL.draft;
+  const surface = project.highlight
+    ? 'bg-yellow-200 border-2 border-yellow-400 hover:border-yellow-500'
+    : 'bg-white border border-black/8 hover:border-black/20';
   return (
     <button
       onClick={() => onOpen(project)}
-      className="group w-full h-48 flex flex-col justify-between bg-white border border-black/8 p-7 text-left transition-all duration-300 hover:border-black/20 hover:shadow-sm focus:outline-none focus:ring-1 focus:ring-black/30"
+      className={`group w-full h-48 flex flex-col justify-between ${surface} p-7 text-left transition-all duration-300 hover:shadow-sm focus:outline-none focus:ring-1 focus:ring-black/30`}
     >
       <div className="flex items-start justify-between gap-4">
         <h2 className="text-base font-medium tracking-tight text-black leading-snug">{project.name}</h2>

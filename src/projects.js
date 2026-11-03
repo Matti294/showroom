@@ -11,6 +11,7 @@ export const PROJECTS = [
     description: 'Round 12: built strictly to Isabel’s brief — her notes “What feels important”, the designed examples in the application deck and her spoken feedback — with a 40-point checklist and proof for every item (see “Checklist (proof)”). The foundation is her own prototype from the deck: a grainy, slowly breathing smoke gradient in the deck palette, the directions list with the moving [ bracket ] and “Connection is in the air.”, three glass entries and a glowing speak button. The logo builds itself up as a glow; the intention text stands alone while everything else blurs. Moods change between charcoal, deep brown and cream as in the deck. A black-and-white image carries a giant blurred word like her Instagram poster, handwriting sits on two images, every practice family has its own image that shows exactly that service, images turn from grainy to sharp on touch, a leaf shadow moves through trust & price, and a ring of light shows the network of 108. Background sound off until you switch it on; calendar with In person / Digital. AI-generated imagery, no faces in motion.',
     url: 'https://ontos-vorgaben.vercel.app',
     status: 'draft',
+    highlight: true,
     pages: [
       { name: 'Landing page', path: '/' },
       { name: 'All practitioners', path: '/practitioners.html' },
