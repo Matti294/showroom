@@ -9,7 +9,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-dogstudio',
     name: 'ontos · Landing + Practitioner — Dogstudio Study',
-    description: 'Round 8: two pages that read as one website — a short, clear landing in six parts (start · directions · practices · practitioners · trust & price · begin) and a sample practitioner profile (Maja Holm) in the same style. Same header, section labels and footer on both pages, profile in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
+    description: 'Round 9: two pages that read as one website. The landing (six parts: start · directions · practices · practitioners · trust & price · begin) shows the network, not single people — over 100 practitioners, a finder by direction, neighbourhood and format, and what every profile shows. The sample profile (Maja Holm) uses the same header, section labels and footer, in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
     url: 'https://ontos-dogstudio.vercel.app',
     status: 'draft',
     pages: [
@@ -20,7 +20,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-exoape',
     name: 'ontos · Landing + Practitioner — Exo Ape Study',
-    description: 'Round 8: two pages that read as one website — a short, clear landing in six parts (start · directions · practices · practitioners · trust & price · begin) and a sample practitioner profile (Maja Holm) in the same style. Same header, section labels and footer on both pages, profile in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
+    description: 'Round 9: two pages that read as one website. The landing (six parts: start · directions · practices · practitioners · trust & price · begin) shows the network, not single people — over 100 practitioners, a finder by direction, neighbourhood and format, and what every profile shows. The sample profile (Maja Holm) uses the same header, section labels and footer, in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
     url: 'https://ontos-exoape.vercel.app',
     status: 'draft',
     pages: [
@@ -31,7 +31,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-locomotive',
     name: 'ontos · Landing + Practitioner — Locomotive Study',
-    description: 'Round 8: two pages that read as one website — a short, clear landing in six parts (start · directions · practices · practitioners · trust & price · begin) and a sample practitioner profile (Maja Holm) in the same style. Same header, section labels and footer on both pages, profile in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
+    description: 'Round 9: two pages that read as one website. The landing (six parts: start · directions · practices · practitioners · trust & price · begin) shows the network, not single people — over 100 practitioners, a finder by direction, neighbourhood and format, and what every profile shows. The sample profile (Maja Holm) uses the same header, section labels and footer, in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
     url: 'https://ontos-locomotive.vercel.app',
     status: 'draft',
     pages: [
@@ -42,7 +42,7 @@ export const PROJECTS = [
   {
     slug: 'ontos-obys',
     name: 'ontos · Landing + Practitioner — Obys Study',
-    description: 'Round 8: two pages that read as one website — a short, clear landing in six parts (start · directions · practices · practitioners · trust & price · begin) and a sample practitioner profile (Maja Holm) in the same style. Same header, section labels and footer on both pages, profile in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
+    description: 'Round 9: two pages that read as one website. The landing (six parts: start · directions · practices · practitioners · trust & price · begin) shows the network, not single people — over 100 practitioners, a finder by direction, neighbourhood and format, and what every profile shows. The sample profile (Maja Holm) uses the same header, section labels and footer, in five parts (about · how she works · experience · prices & times · more). All links inside the site work; booking is an on-page demo. ',
     url: 'https://ontos-obys.vercel.app',
     status: 'draft',
     pages: [
