@@ -6,6 +6,20 @@ export const AUTHORS = [
 export const PROJECTS = [
 
   {
+    slug: 'ontos-vorgaben',
+    name: 'ontos · Landing + Practitioner — Isabel’s Brief (Round 12)',
+    description: 'Round 12: built strictly to Isabel’s brief — her notes “What feels important”, the designed examples in the application deck and her spoken feedback — with a 40-point checklist and proof for every item (see “Checklist (proof)”). The foundation is her own prototype from the deck: a grainy, slowly breathing smoke gradient in the deck palette, the directions list with the moving [ bracket ] and “Connection is in the air.”, three glass entries and a glowing speak button. The logo builds itself up as a glow; the intention text stands alone while everything else blurs. Moods change between charcoal, deep brown and cream as in the deck. A black-and-white image carries a giant blurred word like her Instagram poster, handwriting sits on two images, every practice family has its own image that shows exactly that service, images turn from grainy to sharp on touch, a leaf shadow moves through trust & price, and a ring of light shows the network of 108. Background sound off until you switch it on; calendar with In person / Digital. AI-generated imagery, no faces in motion.',
+    url: 'https://ontos-vorgaben.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Landing page', path: '/' },
+      { name: 'All practitioners', path: '/practitioners.html' },
+      { name: 'Practitioner (example)', path: '/practitioner.html' },
+      { name: 'Checklist (proof)', path: '/nachweis.html' },
+    ],
+  },
+
+  {
     slug: 'ontos-isabel',
     name: 'ontos · Landing + Practitioner — Isabel Study',
     description: 'Round 11: the study built most closely on Isabel’s notes, standing on a measured foundation — her own reference, Odyssée Clinic (one ink colour on warm paper, a calm opening, image texture that changes on touch). The logo builds itself up, a leaf shadow moves across a sunlit wall, and the intention text has its own moment while everything behind it blurs. Images rest grainy in a warm honey duotone and turn sharp and coloured on hover or tap. A giant blurred word sits behind the direction image, handwriting appears on two images, a honey-brown band carries trust & price, and the background sound is off until you switch it on. A “speak” entry suggests a direction from your own words. Glass switches filter In person / Digital, and the directory has a “This week” calendar view. Same three pages and dataset as the other studies; laughing people as stills, films without faces. AI-generated imagery.',
