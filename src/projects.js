@@ -5,7 +5,42 @@ export const AUTHORS = [
 
 export const PROJECTS = [
 
-
+  {
+    slug: 'ontos-isabel',
+    name: 'ontos · Landing + Practitioner — Isabel Study',
+    description: 'Round 11: the study built most closely on Isabel’s notes, standing on a measured foundation — her own reference, Odyssée Clinic (one ink colour on warm paper, a calm opening, image texture that changes on touch). The logo builds itself up, a leaf shadow moves across a sunlit wall, and the intention text has its own moment while everything behind it blurs. Images rest grainy in a warm honey duotone and turn sharp and coloured on hover or tap. A giant blurred word sits behind the direction image, handwriting appears on two images, a honey-brown band carries trust & price, and the background sound is off until you switch it on. A “speak” entry suggests a direction from your own words. Glass switches filter In person / Digital, and the directory has a “This week” calendar view. Same three pages and dataset as the other studies; laughing people as stills, films without faces. AI-generated imagery.',
+    url: 'https://ontos-isabel.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Landing page', path: '/' },
+      { name: 'All practitioners', path: '/practitioners.html' },
+      { name: 'Practitioner (example)', path: '/practitioner.html' },
+    ],
+  },
+  {
+    slug: 'ontos-scorpios',
+    name: 'ontos · Landing + Practitioner — Scorpios Study',
+    description: 'Round 11: ontos in the manner of Scorpios — paper and ink, warm analogue photography, a large wordmark over a full-screen film that glides into the header as you scroll, one manifesto line, mono labels and black rectangular buttons. A few of Isabel’s ideas, each used once: the logo builds itself from blur, film grain and honey/sand grading run through every image, a leaf shadow moves across a wall in trust & price, and background sound stays off until you turn it on. Films of a sunlit room, brass singing bowls on linen and Maja’s room; laughing people over tea as stills. Same three pages and dataset as the other studies. AI-generated imagery.',
+    url: 'https://ontos-scorpios.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Landing page', path: '/' },
+      { name: 'All practitioners', path: '/practitioners.html' },
+      { name: 'Practitioner (example)', path: '/practitioner.html' },
+    ],
+  },
+  {
+    slug: 'ontos-september',
+    name: 'ontos · Landing + Practitioner — Studio September Study',
+    description: 'Round 11: ontos in the manner of Copenhagen’s Studio September — almost-white ground, one grotesque, large section titles over a running line, rounded image cards and a dark navigation dock at the bottom. Isabel’s blur, used where it helps: in the directions list only the chosen one stays sharp, the closing line “Begin with one conversation” stands alone while the street behind it softens, and the first image of each page turns from grainy to sharp on touch. Bright Copenhagen daylight with a touch of warmth; films of an empty movement room and linen in morning light; laughing people as stills. Same three pages and dataset as the other studies. AI-generated imagery.',
+    url: 'https://ontos-september.vercel.app',
+    status: 'draft',
+    pages: [
+      { name: 'Landing page', path: '/' },
+      { name: 'All practitioners', path: '/practitioners.html' },
+      { name: 'Practitioner (example)', path: '/practitioner.html' },
+    ],
+  },
   {
     slug: 'ontos-dogstudio',
     name: 'ontos · Landing + Practitioner — Dogstudio Study',
